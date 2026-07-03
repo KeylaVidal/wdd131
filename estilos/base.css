@@ -49,13 +49,11 @@ nav a:hover {
   color: #ffd700;
 }
 
-.meu-nome {
+h1.meu-nome {
   text-align: center;
-  font-family: 'Times New Roman', serif;
+  color: black;
+  margin: 1.5rem 0;
   font-size: 2rem;
-  font-weight: normal;
-  margin: 1.5rem 0 0.5rem 0;
-  color: #333;
 }
 
 main {
@@ -137,14 +135,14 @@ footer p {
 header {
     background-color: #1a3a6e;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0;
 }
 
 #course-title {
     color: white;
-    font-size: 0.9rem;
     display: block;
-    margin-bottom: 0.5rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
 }
 
 header h1 {
