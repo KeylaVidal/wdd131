@@ -87,10 +87,10 @@ main {
 }
 
 .foto-perfil {
-  float: right;
-  max-width: 120px;
-  margin: 0 0 1rem 1rem 0;
-  border: 1px solid #ccc;
+    float: right;
+    max-width: 120px;
+    margin: 0 0 1rem 1rem;
+    border: 1px solid #ccc;
 }
 
 figure {
