@@ -133,3 +133,31 @@ footer p {
   color: #ffd700;
   font-size: 0.9rem;
 }
+
+header {
+    background-color: #1a3a6e;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#course-title {
+    color: white;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+header h1 {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.8rem 0;
+}
