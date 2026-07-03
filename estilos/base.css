@@ -54,6 +54,8 @@ h1.meu-nome {
   color: black;
   margin: 1.5rem 0;
   font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
 }
 
 main {
