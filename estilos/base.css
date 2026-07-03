@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header, footer, main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #2b4a6b;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding-bottom: 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 0.8rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.meu-nome {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 1.5rem 0 0.5rem 0;
+  color: #333;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.card h2 {
+  background-color: #2b4a6b;
+  color: white;
+  text-align: center;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.card p, .card ul {
+  padding: 1rem;
+}
+
+.card ul {
+  padding-left: 2rem;
+}
+
+.foto-perfil {
+  float: right;
+  max-width: 120px;
+  margin: 0 0 1rem 1rem 0;
+  border: 1px solid #ccc;
+}
+
+figure {
+  float: left;
+  margin: 0 1rem 0 0;
+  text-align: center;
+}
+figure img {
+  max-width: 150px;
+  display: block;
+  border: 1px solid #ccc;
+}
+figcaption {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 0.3rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 0.5rem 0 1rem 0;
+}
+
+footer {
+  background-color: #2b4a6b;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+}
+
+#lastModification {
+  color: #ffd700;
+  font-size: 0.9rem;
+}
