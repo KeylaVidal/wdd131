@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-main, footer {
+header, nav, main, footer {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -21,17 +21,20 @@ header {
     color: white;
     text-align: center;
     padding: 1rem 0;
-    width: 100%;
 }
 
-header h1 {
-    font-family: 'Google Sans Flex', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    padding-bottom: 0.5rem;
-    margin: 0;
-    color: white;
+#course-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: block;
+}
+
+.meu-nome {
     text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #333;
+    margin: 1.5rem 0;
 }
 
 nav {
@@ -39,14 +42,12 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 0.8rem 0;
-    width: 100%;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     font-weight: 700;
-    font-family: 'Google Sans Flex', sans-serif;
 }
 
 nav a:hover {
@@ -65,17 +66,26 @@ main {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 1rem;
-    margin-bottom: 2rem;
 }
 
 .card h2 {
     background-color: #2b4a6b;
     color: white;
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     margin: -1rem -1rem 1rem -1rem;
     text-align: center;
     font-size: 1.2rem;
+}
+
+.card h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.card hr {
+    margin: 0.5rem 0 1rem 0;
 }
 
 .foto-perfil {
@@ -85,11 +95,46 @@ main {
     border: 1px solid #ccc;
 }
 
+.sobre-pais {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.sobre-pais figure {
+    text-align: center;
+    margin: 0;
+    flex-shrink: 0;
+}
+
 .bandeira {
-    float: left;
-    max-width: 200px;
-    margin: 1rem 1rem 0 0;
+    max-width: 150px;
     border: 1px solid #ccc;
+}
+
+.sobre-pais figcaption {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #555;
+    margin-top: 0.3rem;
+}
+
+.card ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+}
+
+.card ul li a {
+    color: #2b4a6b;
+    text-decoration: underline;
+}
+
+.card ul li a:hover {
+    color: #ffd700;
 }
 
 footer {
