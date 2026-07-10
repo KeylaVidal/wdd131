@@ -2,8 +2,20 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+    padding: 1rem;
 }
 
 nav {
     display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background-color: #34495e;
+}
+
+#menu-botao {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
 }
