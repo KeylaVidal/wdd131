@@ -1,27 +1,11 @@
-#menu-botao {
-    display: none;
-}
-
-nav {
-    display: flex !important;
-    flex-direction: row;
-    position: static;
-    width: auto;
-    background-color: transparent;
-}
-
-nav a {
-    border: none;
-}
-
 .galeria {
     grid-template-columns: repeat(3, 1fr);
 }
 
-figure {
-    
+nav {
+    display: flex !important;
 }
 
-figure img {
-
+#menu-botao {
+    display: none;
 }
