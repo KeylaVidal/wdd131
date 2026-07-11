@@ -1,17 +1,17 @@
 @media screen and (min-width: 700px) {
     .galeria-desktop {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
-    nav-desktop{
+    .nav-desktop{
         display: flex;
         flex-direction: row;
         position: static;
-        width: auto;
         background-color: transparent;
     }
 
-    #menu-botao {
+    .botao-desktop {
         display: none;
     }
 }
