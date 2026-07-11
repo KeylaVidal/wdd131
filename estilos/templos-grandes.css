@@ -1,23 +1,5 @@
 @media screen and (min-width: 700px) {
-    
-    .galeria-desktop {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-    }
-
-    .nav-desktop {
-        display: flex;
-        flex-direction: row;
-        position: static;
-        background-color: transparent;
-    }
-
-    .nav-desktop a {
-        margin: 0 1rem;
-    }
-
-    .botao-desktop {
-        display: none;
-    }
+    #menu-botao { display: none; }
+    nav { display: flex; }
+    .galeria { grid-template-columns: repeat(3, 1fr); max-width: 1200px; margin: 0 auto; }
 }
