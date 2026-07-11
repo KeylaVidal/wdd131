@@ -1,19 +1,5 @@
-#menu-botao {
-  display: none; /* some com o hamburguer no desktop */
-}
-
-nav {
-  display: flex !important;
-  flex-direction: row;
-  position: static;
-  width: auto;
-  background-color: transparent;
-}
-
-nav a {
-  border: none;
-}
-
-.galeria {
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas no desktop */
+@media screen and (min-width: 700px) {
+    #menu-botao { display: none; } /* DESKTOP: esconde botão */
+    nav { display: flex; gap: 1rem; } /* DESKTOP: mostra menu */
+    .galeria { grid-template-columns: repeat(3, 1fr); max-width: 1200px; margin: 0 auto; } /* DESKTOP: 3 colunas */
 }
