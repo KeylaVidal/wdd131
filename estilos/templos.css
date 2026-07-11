@@ -1,9 +1,42 @@
-.galeria {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 1rem;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
 }
 
 nav {
-    display: none; 
+    display: none;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+#menu-botao {
+    display: block;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.galeria figure img {
+    width: 100%;
+    height: auto;
 }
