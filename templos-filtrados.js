@@ -55,3 +55,19 @@ document.querySelector("#old").addEventListener("click", () => createTempleCard(
 document.querySelector("#new").addEventListener("click", () => createTempleCard(temples.filter(temple => new Date(temple.dedicated).getFullYear() > 2000)));
 document.querySelector("#large").addEventListener("click", () => createTempleCard(temples.filter(temple => temple.area > 90000)));
 document.querySelector("#small").addEventListener("click", () => createTempleCard(temples.filter(temple => temple.area < 10000)));
+
+// Pega todos os links do nav
+const navLinks = document.querySelectorAll('#navmenu a');
+
+// Função pra tirar a classe active de todos
+function removeActive() {
+    navLinks.forEach(link => link.classList.remove('active'));
+}
+
+// Adiciona o evento de clique em cada link
+navLinks.forEach(link => {
+    link.addEventListener('click', function() {
+        removeActive();
+        this.classList.add('active'); // Adiciona active só no clicado
+    });
+});
