@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum do Templo</title>
+    <link rel="stylesheet" href="templos-filtrados.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="templos-filtrados.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="handler">Álbum do Templo</h1>
+        <a href="#" id="hambutton" class="hambutton" aria-label="Abrir menu"></a>
+        <nav id="navmenu">
+            <a href="#" id="all" class="active" onclick="toggleActive(this)">Início</a>
+            <a href="#" id="old" onclick="toggleActive(this)">Antigos</a>
+            <a href="#" id="new" onclick="toggleActive(this)">Novos</a>
+            <a href="#" id="large" onclick="toggleActive(this)">Grandes</a>
+            <a href="#" id="small" onclick="toggleActive(this)">Pequenos</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="page-title">Início</h2>
+        <div class="res-grid"></div>
+    </main>
+    <footer>
+        <p>&copy;<span id="ano-atual"></span> ⚠️ Keyla Vidal ⚠️ Manaus, Amazonas</p>
+        <p class="smaller" id="lastModified"></p>
+    </footer>
+</body>
+</html>
