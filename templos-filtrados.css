@@ -100,3 +100,5 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+body { color: inherit; }
