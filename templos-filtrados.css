@@ -30,3 +30,8 @@ header {
     gap: 2rem;
   }
 }
+
+#navmenu a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
