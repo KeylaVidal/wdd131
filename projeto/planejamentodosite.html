@@ -59,5 +59,23 @@
     <footer>
         <p>&copy; 2026 Keyla Vidal | Última Modificação: 29/07/2026</p>
     </footer>
+
+    <form method="get" action="review.html">
+       <h2>Deixe sua Avaliação</h2>
+    
+       <label for="nome">Nome:</label>
+       <input type="text" id="nome" name="nome" required>
+    
+       <label for="nota">Nota:</label>
+       <select id="nota" name="nota" required>
+          <option value="">Selecione</option>
+          <option value="5">5 - Excelente</option>
+          <option value="4">4 - Bom</option>
+          <option value="3">3 - Regular</option>
+       </select>
+    
+       <button type="submit">Enviar Avaliação</button>
+    </form>
+
 </body>
 </html>
