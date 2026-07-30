@@ -56,36 +56,59 @@
         </section>
     </main>
 
-    <form method="get" action="review.html">
-        <label for="produto">Escolha um produto:</label>
-        <select id="produto" name="produto" required>
+    <form>
+
+      <label for="produto">Escolha um produto:</label>
+      <select id="produto" name="produto" required>
           <option value="" disabled selected>Selecione um produto ...</option>
           <option value="p1">Produto 1</option>
           <option value="p2">Produto 2</option>
           <option value="p3">Produto 3</option>
           <option value="p4">Produto 4</option>
           <option value="p5">Produto 5</option>
-        </select>
+      </select>
+      <br><br>
 
-        <p>Ou escolha um produto:</p>
-        <input type="radio" id="r1" name="produto_radio" value="p1" required>
-        <label for="r1">Produto 1</label><br>
+      <p>Ou escolha um produto:</p>
+      <input type="radio" id="r1" name="produto_radio" value="p1" required>
+      <label for="r1">Produto 1</label><br>
 
-        <input type="radio" id="r2" name="produto_radio" value="p2">
-        <label for="r2">Produto 2</label><br>
+      <input type="radio" id="r2" name="produto_radio" value="p2" required>
+      <label for="r2">Produto 2</label><br>
 
-        <input type="radio" id="r3" name="produto_radio" value="p3">
-        <label for="r3">Produto 3</label><br>
+      <input type="radio" id="r3" name="produto_radio" value="p3" required>
+      <label for="r3">Produto 3</label><br>
 
-        <input type="radio" id="r4" name="produto_radio" value="p4">
-        <label for="r4">Produto 4</label><br>
+      <input type="radio" id="r4" name="produto_radio" value="p4" required>
+      <label for="r4">Produto 4</label><br>
 
-        <input type="radio" id="r5" name="produto_radio" value="p5">
-        <label for="r5">Produto 5</label><br>
+      <input type="radio" id="r5" name="produto_radio" value="p5" required>
+      <label for="r5">Produto 5</label><br>
+      <br>
 
-        <label for="comentarios">Comentários:</label>
+      <p>Marque as opções:</p>
+      <input type="checkbox" id="c1" name="opcao" value="op1">
+      <label for="c1">Opção 1</label><br>
 
-        <button type="submit">Enviar</button>
+      <input type="checkbox" id="c2" name="opcao" value="op2">
+      <label for="c2">Opção 2</label><br>
+
+      <input type="checkbox" id="c3" name="opcao" value="op3">
+      <label for="c3">Opção 3</label><br>
+
+      <input type="checkbox" id="c4" name="opcao" value="op4">
+      <label for="c4">Opção 4</label><br>
+      <br>
+
+      <label for="data">Data:</label>
+      <input type="date" id="data" name="data" required>
+      <br><br>
+
+      <label for="comentarios">Comentários:</label>
+      <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+      <br><br>
+
+      <button type="submit">Enviar</button>
 
     </form>
 
@@ -93,6 +116,6 @@
         <p>&copy; 2026 ✨ Keyla Vidal 🙋🏽‍♀️ | Última Modificação: 30/07/2026</p>
     </footer>
 
-<script src="scripts.js" defer></script>
+   <script src="scripts.js" defer></script>
 </body>
 </html>
