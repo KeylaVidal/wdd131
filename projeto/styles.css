@@ -37,3 +37,14 @@ footer {
 .amarelo {
     color: #FFC107;
 }
+
+/* Deixa o site responsivo para celular */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
