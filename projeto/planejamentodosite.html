@@ -61,29 +61,17 @@
     </footer>
 
     <form method="get" action="review.html">
-       <h2>Deixe sua Avaliação</h2>
-    
-       <label for="nome">Nome:</label>
-       <input type="text" id="nome" name="nome" required>
-      
-       <p>Qual sua nota para o site?</p>
-    
-       <input type="radio" id="nota5" name="nota" value="5" required>
-       <label for="nota5">5 - Excelente</label><br>
-    
-       <input type="radio" id="nota4" name="nota" value="4">
-       <label for="nota4">4 - Bom</label><br>
-    
-       <input type="radio" id="nota3" name="nota" value="3">
-       <label for="nota3">3 - Regular</label><br>
-    
-       <input type="radio" id="nota2" name="nota" value="2">
-       <label for="nota2">2 - Ruim</label><br>
-    
-       <input type="radio" id="nota1" name="nota" value="1">
-       <label for="nota1">1 - Péssimo</label><br>
+      <label for="produto">Escolha um produto:</label>
+      <select id="produto" name="produto" required>
+         <option value="" disabled selected>Selecione um produto</option> <!-- placeholder -->
+         <option value="p1">Produto 1</option>
+         <option value="p2">Produto 2</option>
+         <option value="p3">Produto 3</option>
+         <option value="p4">Produto 4</option>
+         <option value="p5">Produto 5</option>
+      </select>
 
-       <button type="submit">Enviar Avaliação</button>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
