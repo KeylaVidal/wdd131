@@ -22,31 +22,26 @@
 
             <div>Classificação Geral</div>
             <div class="rating">
-                <input type="radio" id="star5" name="rating" value="5" required>
-                <label for="star5">☆</label>
-                <input type="radio" id="star4" name="rating" value="4">
-                <label for="star4">☆</label>
-                <input type="radio" id="star3" name="rating" value="3">
-                <label for="star3">☆</label>
-                <input type="radio" id="star2" name="rating" value="2">
-                <label for="star2">☆</label>
-                <input type="radio" id="star1" name="rating" value="1">
-                <label for="star1">☆</label>
+                <input type="radio" id="star5" name="rating" value="5" required><label for="star5">☆</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4">☆</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3">☆</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2">☆</label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1">☆</label>
             </div>
 
             <label for="installDate">Data de Instalação</label>
             <input type="date" id="installDate" name="installDate" required>
 
             <div>Quais recursos você achou úteis no produto?<br><span class="optional">(Marque todos que se aplicam)</span></div>
-            <label><input type="checkbox" name="features" value="Durabilidade"> Durabilidade</label>
-            <label><input type="checkbox" name="features" value="Facilidade de Uso"> Facilidade de Uso</label>
-            <label><input type="checkbox" name="features" value="Desempenho"> Desempenho</label>
-            <label><input type="checkbox" name="features" value="Design"> Design</label>
+            <label><input type="checkbox" id="durabilidade" name="features" value="Durabilidade"> <label for="durabilidade">Durabilidade</label></label>
+            <label><input type="checkbox" id="facilidade" name="features" value="Facilidade"> <label for="facilidade">Facilidade de Uso</label></label>
+            <label><input type="checkbox" id="desempenho" name="features" value="Desempenho"> <label for="desempenho">Desempenho</label></label>
+            <label><input type="checkbox" id="design" name="features" value="Design"> <label for="design">Design</label></label>
 
-            <label for="writtenReview">Avaliação Escrita <span class="optional">(Optional)</span></label>
+            <label for="writtenReview">Avaliação Escrita <span class="optional">(Opcional)</span></label>
             <textarea id="writtenReview" name="writtenReview"></textarea>
 
-            <label for="userName">Seu Nome <span class="optional">(Optional)</span></label>
+            <label for="userName">Seu Nome <span class="optional">(Opcional)</span></label>
             <input type="text" id="userName" name="userName">
 
             <input type="submit" value="Publicar Avaliação">
