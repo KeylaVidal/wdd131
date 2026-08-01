@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação do Produto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Avaliação do Produto</h1>
+    </header>
+
+    <main>
+        <form method="get" action="avaliacao.html">
+            
+            <div class="form-group">
+                <label for="productName">Nome do Produto *</label>
+                <select id="productName" name="productName" required>
+                    <option value="" disabled selected>Selecione um Produto...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Classificação Geral *</p>
+                <div class="rating">
+                    <input type="radio" id="star5" name="rating" value="5" required>
+                    <label for="star5">★</label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4">★</label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3">★</label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2">★</label>
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1">★</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="installDate">Data de Instalação *</label>
+                <input type="date" id="installDate" name="installDate" required>
+            </div>
+
+            <div class="form-group">
+                <p>Quais recursos você achou úteis no produto? <br><span>(Marque todos que se aplicam)</span></p>
+                <label><input type="checkbox" name="usefulFeatures" value="Durabilidade"> Durabilidade</label>
+                <label><input type="checkbox" name="usefulFeatures" value="Facilidade de Uso"> Facilidade de Uso</label>
+                <label><input type="checkbox" name="usefulFeatures" value="Desempenho"> Desempenho</label>
+                <label><input type="checkbox" name="usefulFeatures" value="Design"> Design</label>
+            </div>
+
+            <div class="form-group">
+                <label for="writtenReview">Avaliação Escrita (Opcional)</label>
+                <textarea id="writtenReview" name="writtenReview" rows="4" placeholder="Escreva sua avaliação aqui..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="userName">Seu Nome (Opcional)</label>
+                <input type="text" id="userName" name="userName" placeholder="Seu nome">
+            </div>
+
+            <input type="submit" value="Publicar Avaliação">
+        </form>
+    </main>
+
+    <footer>
+        <p>©2025 🙋🏽‍♀️ Keyla Vidal ✨</p>
+        <p>Localização</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
