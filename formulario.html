@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Formulário de Avaliação de Produto WDD131. Avalie produtos com Flux Capacitor e Powwe Laces. Deixe sua opinião com estrelas e comentários.">
+    <meta name="description" content="Formulário de Avaliação de Produto WDD131. Avalie produtos como Flux Capacitor e Power Laces.">
     <meta name="author" content="Keyla Vidal">
     <title>Avaliação do Produto</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Avaliação do Produto</h1>
-    </header>
-
     <main>
+        <h1>Avaliação do Produto</h1>
         <form method="get" action="avaliacao.html">
-            
+
             <div class="form-group">
                 <label for="productName">Nome do Produto *</label>
                 <select id="productName" name="productName" required>
@@ -65,13 +62,11 @@
             <input type="submit" value="Publicar Avaliação">
         </form>
     </main>
-
     <footer>
-        <p>©2025 🙋🏽‍♀️ Keyla Vidal ✨</p>
-        <p>Localização</p>
+        <p>© <span id="currentyear"></span> 🙋🏽‍♀️ Keyla Vidal ✨</p>
+        <p>Localização: Amazonas, Brasil</p>
         <p id="lastModified"></p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
