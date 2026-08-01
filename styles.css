@@ -11,3 +11,14 @@ input, select, textarea { width: 100%; padding: .8rem; border: 1px solid #ccc; b
 input[type="submit"] { background: #333; color: white; padding: 1rem; border: none; cursor: pointer;}
 footer { text-align: center; margin-top: 2rem; background: #333; color: white; padding: 1rem;}
 .optional { font-weight: normal; font-size: .8rem; color: #0056b3;}
+/* Responsivo para celular */
+@media screen and (max-width: 600px) {
+    main {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
