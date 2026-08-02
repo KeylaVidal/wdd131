@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Keyla Vidal">
-    <meta name="description" content="Formulário de avaliação de produtos para coletar feedback dos usuários sobre a qualidade, usabilidade e satisfação dos produtos.">
+    <meta name="description" content="Página de confirmação do envio do formulário de avaliação do curso WDD131.">
     <title>Avaliação Enviada</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="review.js" defer></script>
 </head>
 <body>
-    <header><h1>Obrigada pela sua avaliação!</h1></header>
-    <main>
-        <p>Sua avaliação foi enviada com sucesso.</p>
-        <p>Você já enviou <span id="reviewCount">0</span> avaliações.</p>
-    </main>
+    <h1>Obrigado pelo seu feedback!</h1>
+    <p>Sua avaliação foi enviada com sucesso.</p>
+
+    <form method="get" action="avaliacao.html">
+        <input type="hidden" name="enviado" value="true">
+    </form>
+
     <footer>
-        Keyla Vidal | Manaus - <span id="lastModified"></span>
+        <p>&copy;2026 Keyla Vidal 🌸 Manaus</p>
+        <p>Última Modificação: <span id="lastModified"></span></p>
     </footer>
 </body>
 </html>
