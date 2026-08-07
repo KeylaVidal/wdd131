@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Descubra Manaus</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Descubra Manaus</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="pontos.html">Pontos Turísticos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Planeje sua Viagem</h2>
+        <p>Me conta qual ponto você quer visitar e eu te mando mais dicas!</p>
+
+        <form id="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="ponto">Ponto de Interesse:</label>
+            <select id="ponto" name="ponto">
+                <option value="">Selecione...</option>
+                <option value="teatro">Teatro Amazonas</option>
+                <option value="encontro">Encontro das Águas</option>
+                <option value="mercado">Mercado Adolpho Lisboa</option>
+            </select>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="mensagem-sucesso"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Descubra Manaus</p>
+        <a href="referencias.html">Referências</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
